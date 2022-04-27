@@ -4,6 +4,7 @@
             <title>
                 Skater's Skrrrt
             </title>
+            <link rel="stylesheet" href="style.css">
         </head>
         <body>
             <header>
