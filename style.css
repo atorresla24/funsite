@@ -16,5 +16,6 @@ nav a {
 }
 
 img{
-    margin-left: 100px
+    margin-left: 100px;
+    text-decoration: none;
 }
