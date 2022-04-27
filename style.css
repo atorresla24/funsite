@@ -1,4 +1,20 @@
 title{
     color: green;
+    margin-left: 20px;
+
 }
 
+nav li{
+    display: inline;
+    padding-left: 35px;
+}
+
+nav a {
+    font-size:25px;
+    text-decoration: none;
+}
+
+img{
+    margin-left: 70px;
+    
+}
