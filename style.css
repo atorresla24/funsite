@@ -1,12 +1,13 @@
-title{
-    color: green;
+header h1{
+    background-color: black;
+    color: blue;
     margin-left: 20px;
-
 }
 
 nav li{
     display: inline;
     padding-left: 35px;
+    background-color: antiquewhite;
 }
 
 nav a {
@@ -15,6 +16,6 @@ nav a {
 }
 
 img{
-    margin-left: 70px;
-    
+    margin-left: 100px;
+    text-decoration: none;
 }
