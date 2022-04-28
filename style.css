@@ -15,6 +15,11 @@ nav a {
     text-decoration: none;
 }
 
+nav li p{
+    font-size: 25px;
+    text-decoration: none;
+}
+
 img{
     margin-left: 100px;
     padding-left: 20px;
