@@ -25,6 +25,10 @@ nav li p{
     text-decoration: none;
 }
 
+section a{
+    margin-bottom: 50px;
+}
+
 img{
     margin-left: 100px;
     padding-left: 20px;
