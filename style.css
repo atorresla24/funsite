@@ -1,5 +1,5 @@
 header h1{
-    background-color: hsl(404, 95, 44,1);
+    background-color: black;
     color: blue;
     margin-left: 20px;
 }
@@ -17,6 +17,8 @@ nav a {
 
 img{
     margin-left: 100px;
+    padding-left: 20px;
     text-decoration: none;
+    display: inline;
 }
 
