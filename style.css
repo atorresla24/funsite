@@ -11,9 +11,10 @@ nav li{
     background-color: antiquewhite;
 }
 
-nav a {
+nav li a {
     font-size:25px;
     text-decoration: none;
+    padding-left:20px;
 }
 
 nav li p{
