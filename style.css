@@ -40,3 +40,10 @@ img{
 footer{
     font-size: 20px;
 }
+
+div#img script{
+    display: inline;
+    text-decoration: none;
+    margin-left : 100px;
+    padding-left: 20px;
+}
