@@ -1,10 +1,15 @@
 'use strict'
+function board(){
+    let answer = prompt("Skateboards or surfboards");
+    console.log(answer);
+    console.log("That's awesome!");
+}
 
-let answer = prompt("Skateboards or surfboards");
-console.log(answer);
-
-let userName = prompt("What is your name");
-console.log(userName);
+function greeting(){
+    let userName = prompt("What is your name");
+    console.log(userName);
+    return userName
+}
 
 if (answer == skateboards){
     console.log("Good choice! WELCOME!" + userName);
@@ -24,44 +29,22 @@ if(deckWidth < 8){
  } else {
     response = 'I guess skateboards are not for you :(';
  }
-
- let number;
- let guesses = 3;
- for(let i = 0; i < guesses; i++){
-     let number = prompt("Guess to enter 1-10");
-     if (number == 9){
-         console.log("You may enter");
-         break;
-     }else{
-         console.log("Better luck next time ;)");
-     }
- }
-
- let question;
- let stars = 5;
- for (let i = 1; i <= stars;){
-     let question = prompt("What would you rate the questions? 1-5");
-     if (question == 1){
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-     }else if(question == 2){
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-     }else if (question == 3){
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-     }else if(question == 4){
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-     }else if(question == 5){
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-        src("https://static4.depositphotos.com/1026550/376/i/600/depositphotos_3763236-stock-photo-gold-star.jpg");
-     }else{
-         document.write("No stars :(");
-     }
- }
+function numGuess(){
+    let number;
+    let guesses = 3;
+    for(let i = 0; i < guesses; i++){
+        let number = prompt("Guess to enter 1-10");
+        if (number == 9){
+            console.log("You may enter");
+            break;
+        }else{
+            console.log("Better luck next time ;)");
+        }
+    }
+}
+function pic(){
+    let question = prompt("What would you rate the questions? 1-5");
+    for (let i = 0; i <= question;i++){
+        document.write("<img src='https://thumbs.dreamstime.com/z/golden-star-27179479.jpg'/>")
+        }
+    }
